@@ -1,0 +1,32 @@
+{
+  "name": "ld382.js",
+  "version": "0.0.0",
+  "description": "Lib to communicate with ld382 wifi LED controller",
+  "main": "index.js",
+  "bin": {
+    "ld382": "./bin/ld382.js"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "commander": "^2.9.0",
+    "debug": "^2.2.0",
+    "netmask": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ld382",
+    "accf2366d320",
+    "wifi",
+    "led",
+    "controller",
+    "ufo"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "Christoph Wiechert",
+  "license": "MIT"
+}
