@@ -1,5 +1,9 @@
 # LD382 UFO Led Controller Library
 
+A NodeJS Library and CLI tool to communicate with the LD382 UFO Led Controller.
+
+Requires NodeJS 4.0 or later.
+
 ```
 $ sudo npm install -g ld382.js
 
@@ -21,8 +25,15 @@ $ ld382 -h
     --quiet              Suppress output
     --debug              Debug mode
 
-$ ld382 -s
+$ ld382 --sacen
 192.168.12.69   ACCF2366D320    HF-LPB100-ZJ200
 
-$ ld38s -i 192.168.12.69 --poweron --white 125
+$ ld38s --ip 192.168.12.69 --poweron --white 125
 ```
+
+### TODO
+* RGB Tests (dont have a RGB stripe yet)
+* Implement the predefined programs
+
+## License
+  [MIT](LICENSE)
